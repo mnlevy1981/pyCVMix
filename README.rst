@@ -2,10 +2,11 @@
 CVMix in Python
 ===============
 
-1. Check out the ``feature/dyn-lib`` branch of ``github.com:mnlevy1981/CVMix-src.git``
-2. Build ``dynlib`` target
+Submodules brings ``feature/dyn-lib`` branch of `` https://github.com/mnlevy1981/CVMix-src.git`` in as `./CVMix`.
+``ctypes`` expects a ``.so`` file, so build ``dynlib`` target of CVMix:
 
 ::
+
   $ cd $CVMIXROOT/src
   $ make dynlib
 
