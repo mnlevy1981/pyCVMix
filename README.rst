@@ -2,7 +2,7 @@
 CVMix in Python
 ===============
 
-Submodules brings ``feature/dyn-lib`` branch of `` https://github.com/mnlevy1981/CVMix-src.git`` in as `./CVMix`.
+Submodules brings ``feature/dyn-lib`` branch of ``https://github.com/mnlevy1981/CVMix-src.git`` in as ``./CVMix``.
 ``ctypes`` expects a ``.so`` file, so build ``dynlib`` target of CVMix:
 
 ::
