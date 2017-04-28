@@ -11,12 +11,12 @@ contains
 
   subroutine print_array(x)
 
-    real(kind=r8), dimension(10), intent(in) :: x
+    real(kind=r8), dimension(2,5), intent(in) :: x
 
-    integer :: i
+    integer :: j
 
-    do i = 1, 10
-      print*, x(i)
+    do j = 1,5
+      print*, x(:,j)
     end do
 
   end subroutine print_array
