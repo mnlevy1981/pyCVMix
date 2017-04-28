@@ -11,7 +11,7 @@ contains
 
   subroutine print_array(x)
 
-    real(kind=r8), dimension(10) :: x
+    real(kind=r8), dimension(10), intent(in) :: x
 
     integer :: i
 
