@@ -1,0 +1,4 @@
+[submodule "CVMix"]
+	path = CVMix
+	url = https://github.com/mnlevy1981/CVMix-src.git
+	branch = feature/dyn-lib
